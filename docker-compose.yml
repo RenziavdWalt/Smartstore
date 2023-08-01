@@ -15,7 +15,7 @@ services:
     container_name: mysql
     environment:
       #MYSQL_DATABASE: smartstore
-      #MYSQL_USER: "root"
+      #MYSQL_USER: "admin"
       MYSQL_PASSWORD: "Smartstore2022!"
       MYSQL_ROOT_PASSWORD: "Smartstore2022!"
     ports:

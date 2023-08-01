@@ -1,7 +1,7 @@
 # -----------------------------------------------------------
 # Creates a Windows Docker image from an existing
 # build artifact. Please ensure that Docker
-# is running Windows containers.
+# is running Windows containers...
 # -----------------------------------------------------------
 
 ARG ASPNET_TAG=7.0

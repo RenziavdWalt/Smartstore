@@ -56,6 +56,8 @@ else
     export DOTNET_EXE="$DOTNET_DIRECTORY/dotnet"
 fi
 
+# Console.WriteLine("Hello, World!");
+
 echo "Microsoft (R) .NET Core SDK version $("$DOTNET_EXE" --version)"
 
 "$DOTNET_EXE" build "$BUILD_PROJECT_FILE" /nodeReuse:false /p:UseSharedCompilation=false -nologo -clp:NoSummary --verbosity quiet
